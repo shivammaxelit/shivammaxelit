@@ -5,9 +5,9 @@ from os.path import isfile, join
 # pathIn= './images/testing/'
 def framesToVideo():
     # print("hello world")
-    pathIn= 'E:/ImageProcessing/Project_LPR/frames/'
+    pathIn= 'output/frames/'
 
-    pathOut = 'E:/ImageProcessing/Project_LPR/output_video/output_video.avi'
+    pathOut = 'output/video/output_video.avi'
     fps = 1
 
     frame_array = []

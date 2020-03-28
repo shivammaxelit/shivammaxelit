@@ -8,8 +8,8 @@ import base64
 import json
 
 capture_duration = 10
-FILE_OUTPUT = 'E:/ImageProcessing/Project_LPR/frames'
-FILE_OUTPUT_V = 'E:/ImageProcessing/Project_LPR/output_video/output.avi'
+FILE_OUTPUT = 'output/frames'
+FILE_OUTPUT_V = 'output/video/output.avi'
 
 # Checks and deletes a previously existing output.avi file 
 # as there cant be a file with the same name or it will through an error

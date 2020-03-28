@@ -44,8 +44,8 @@ def readLicence(IMAGE_PATH,OUT_PATH):
 
     # print(json.dumps(r.json(), indent=2))
 def accessImageFromLocation():
-    directory = r'E:/ImageProcessing/Project_LPR/frames/'
-    outdirectory = 'E:/ImageProcessing/Project_LPR/json/'
+    directory = r'output/frames/'
+    outdirectory = 'output/frames/'
     i=0
     for filename in os.listdir(directory):
         if filename.endswith(".jpg") or filename.endswith(".png"):
